@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 56px;
+    box-shadow: 0 4px 4px -5px grey;
+}
+
+.top-left {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    min-width: 300px;
+}
+
+.facebooklogo {
+    width: 50px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #f0f2f5;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.search-icon {
+    padding-left: 12px;
+    display: flex;
+}
+
+input {
+    margin-left: 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+    height: 40px;
+    border-width: 0;
+    outline: none;
+    background-color: transparent;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    gap: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 111px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* border: 1px solid; */
+}
+
+div.home>.desc {
+    display: none;
+    position: absolute;
+    border: 1px solid;
+    margin-left: 29px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 15px;
+    min-height: 30px;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+}
+
+div.video>.desc {
+    display: none;
+    position: absolute;
+    border: 1px solid;
+    margin-left: 39px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 15px;
+    min-height: 30px;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+}
+
+div.marketplace>.desc {
+    display: none;
+    position: absolute;
+    border: 1px solid;
+    margin-left: 19px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 15px;
+    min-height: 30px;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+}
+
+div.group>.desc {
+    display: none;
+    position: absolute;
+    border: 1px solid;
+    margin-left: 42px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 15px;
+    min-height: 30px;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+}
+
+div.game>.desc {
+    display: none;
+    position: absolute;
+    border: 1px solid;
+    margin-left: 25px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 15px;
+    min-height: 30px;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+}
+
+.icon:hover {
+    background-color: #f0f2f5;
+}
+
+.home:hover .desc,
+.video:hover .desc,
+.marketplace:hover .desc,
+.group:hover .desc,
+.game:hover .desc {
+    display: flex;
+}
+
+
+.top-right {
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    min-height: 40px;
+    min-width: 40px;
+    background-color: #e1e1e2;
+    cursor: pointer;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    min-height: 40px;
+    min-width: 40px;
+    background-color: #e1e1e2;
+    cursor: pointer;
+}
+
+.noti-bell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    min-height: 40px;
+    min-width: 40px;
+    background-color: #e1e1e2;
+    cursor: pointer;
+}
+.profile {
+    display: flex;
+    position: absolute;
+    margin-left: 240px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    min-height: 40px;
+    min-width: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+}
+
+div.menu>.desc {
+    display: none;
+    position: absolute;
+    border: 1px solid;
+    margin-left: 2px;
+    margin-top: 95px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 15px;
+    min-height: 30px;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+}
+div.message>.desc {
+    display: none;
+    position: absolute;
+    border: 1px solid;
+    margin-left: 2px;
+    margin-top: 95px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 15px;
+    min-height: 30px;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+}
+div.noti-bell>.desc {
+    display: none;
+    position: absolute;
+    border: 1px solid;
+    margin-left: 2px;
+    margin-top: 95px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 15px;
+    min-height: 30px;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+}
+div.profile > .desc {
+    display: none;
+    position: absolute;
+    border: 1px solid;
+    margin-left: 2px;
+    margin-top: 95px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 15px;
+    min-height: 30px;
+    color: white;
+    opacity: 0.8;
+    background-color: black;
+}
+.menu:hover .desc,
+.message:hover .desc,
+.noti-bell:hover .desc,
+.profile:hover .desc {
+    display: flex;
+}
